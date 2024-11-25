@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My sitet</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Начало блока шапки -->
+    <header class="header">
+     <div class="container header_block">
+         <div class="logo_header"> 
+            Данилин А.В 
+         </div>
+         
+         <div class="navigation">
+             <button class="header_but">Обо мне</button>
+             <button class="header_but">Проекты</button>
+             <button class="header_but">Навыки</button>
+             <button class="header_but">Контакты</button>
+         </div>
+     </div>
+    </header>
+    <!-- Конец блока шапки -->
+
+    <!-- Блок описнаия обо мне и фотка-->
+    <div class="container about_block">
+        <div class="about_text">
+            <p class="zagolovok_about_my_name"> Привет! <br> Меня зовут Андрей </p>
+            <p class="about_me">Всем привет! Меня зовут Данилин Андрей Витальевич. Я занимаюсь веб разработкой. </p>
+        </div>
+
+        <div class="about_photo">
+            <img src="photo/image.png" alt="фото">
+        </div>
+    </div>
+    <!-- Конец блока описания обо мне и фотка -->
+
+    <!-- Начало блока описания обо мне -->
+    <div class="container obo_mne_block" id="about">  
+        <div class="text_obo_mne">
+            <p class="zagolovok_all"> Обо мне </p>
+            <div class="obo_mne_rectangle">
+                <p class="text_in_win"> Я родился и живу в городе Рязани. На данный момент работаю системным администратором. Увлекаюсь программированием. Изучаю разработку веб сайтов. </p>
+            </div>
+        </div>
+    </div>
+    <!-- Конец блока описания обо мне -->
+
+    <!-- Начало блка проекты -->
+    <div class="projects-section" id="projects">
+        <h2 class="zagolovok_project"> Проекты </h2>
+        
+        <div class="slider-container">
+            <button class="slider-btn left" id="slideLeft">&lt;</button>
+            <div class="slider-window">
+                <div class="slider-content">
+                    <div class="project_rectangle">Lorem ipsum dolor, sit amet 
+                        consectetur adipisicing elit. Vero, quo nulla. Itaque aliquid 
+                        cupiditate excepturi, pariatur optio iure esse eveniet. 
+                        Sed aliquam architecto facilis ipsam quibusdam commodi quidem 
+                        animi maiores.</div>
+                    <div class="project_rectangle">Lorem ipsum dolor, sit amet 
+                        consectetur adipisicing elit. Vero, quo nulla. Itaque aliquid 
+                        cupiditate excepturi, pariatur optio iure esse eveniet. 
+                        Sed aliquam architecto facilis ipsam quibusdam commodi quidem 
+                        animi maiores.</div>
+                    <div class="project_rectangle">Lorem ipsum dolor, sit amet 
+                        consectetur adipisicing elit. Vero, quo nulla. Itaque aliquid 
+                        cupiditate excepturi, pariatur optio iure esse eveniet. 
+                        Sed aliquam architecto facilis ipsam quibusdam commodi quidem 
+                        animi maiores.</div>
+                    <div class="project_rectangle">Lorem ipsum dolor, sit amet 
+                        consectetur adipisicing elit. Vero, quo nulla. Itaque aliquid 
+                        cupiditate excepturi, pariatur optio iure esse eveniet. 
+                        Sed aliquam architecto facilis ipsam quibusdam commodi quidem 
+                        animi maiores.</div>
+                    <div class="project_rectangle">Lorem ipsum dolor, sit amet 
+                        consectetur adipisicing elit. Vero, quo nulla. Itaque aliquid 
+                        cupiditate excepturi, pariatur optio iure esse eveniet. 
+                        Sed aliquam architecto facilis ipsam quibusdam commodi quidem 
+                        animi maiores.</div>
+                </div>
+            </div>
+            <button class="slider-btn right" id="slideRight">&gt;</button>
+        </div>
+    </div>
+    <!-- Конец блка проекты -->
+
+     <!-- Начало блока описания моих навыков -->
+     <div class="container my_navik" id="skills">  
+        <div class="text_navik">
+            <p class="zagolovok_all"> Навыки </p>
+            <div class="navik_rectangle">
+                <p class="text_in_win_navik"> Тут можно написать о моих навыков и какие навыки я использовал для создания данного сайта </p>
+            </div>
+        </div>
+    </div>
+    <!-- Конец блока описания моих навыков -->
+
+<!-- Начало подвала -->
+    <footer class="footer" id="contacts">
+        <div class="container footer_block"> 
+            <div class="obr_connect">
+                <form action="#" class="obr_connect_form">
+                    <p class="tetx_obr_connect"> Обратная связь </p>
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="email" placeholder="Ваш Email"> 
+                    <input type="text" placeholder="Ваш Вопрос">
+                    <input type="submit" value="Отправить">
+                </form>
+            </div>
+            <div class="contacts">
+                <div class="text_contacts">
+                    <p class="my_contact"> Мои Контакты </p>
+                    <div class="contact_rectangle">
+                        <p class="text_my_contact"> Номер телефона - 8 999 999 99 99 <br> Мой Email - example@example.ru </p>
+                            <div class="img_contact"> 
+                                <a href="https://t.me/danilinav2"> 
+                                    <img src="photo/telegram.png" alt="telegram">
+                                </a>
+
+                                <a href="https://vk.com/id151129872">
+                                    <img src="photo/vk.png" alt="vk">
+                                </a>
+
+                                <a href="https://wa.me/89521278823">
+                                    <img src="photo/whatsapp.png" alt="whatsapp">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </footer> 
+<!-- Конец подвала -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous">
+    </script>
+
+    <script src="main.js"> </script>
+</body>
+</html>
+
